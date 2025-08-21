@@ -9,16 +9,19 @@ public class Q17 {
 		
 		Scanner scanner = new Scanner (System.in);
 		
-		ArrayList<Integer> vetor = new ArrayList<>();
-		
+		/*ArrayList<Integer> vetor = new ArrayList<>();*/
+		int[] vetor = new int[5];
+
 		for (var i = 0 ; i < 5 ; i ++) {
 			System.out.println("Digite um número inteiro: ");
 			int numero = scanner.nextInt();
 			
-			vetor.add(numero);
+			vetor[i] = numero;
 		}
-		
-		System.out.println(vetor);
+
+        for (var i = 0 ; i < vetor.length ; i ++) {
+            System.out.println(vetor[i]);
+        }
 		
 		scanner.close();
 		
