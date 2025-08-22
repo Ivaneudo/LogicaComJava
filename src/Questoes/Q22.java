@@ -14,7 +14,7 @@ public class Q22 {
         String convertendo = String.valueOf(numero);
         String invertida = new StringBuilder(convertendo).reverse().toString();
 
-        System.out.println(numero + " <-> " + invertida);
+        System.out.println(numero + " <--> " + invertida);
 
         in.close();
 

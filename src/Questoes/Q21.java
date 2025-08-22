@@ -21,7 +21,7 @@ public class Q21 {
         if (tamanho1 == tamanho2) {
             System.out.println("As duas palavras tem o mesmo tamanho. " + tamanho1);
         } else {
-            System.out.println("As palavras tem tamanhos diferentes, a " + palavra1 + " tem " + tamanho1 + " caracteres e a " + palavra2 + " tem " + tamanho2 + " caracteres.");
+            System.out.println("As palavras não tem tamanhos diferentes, a " + palavra1 + " tem " + tamanho1 + " caracteres e a " + palavra2 + " tem " + tamanho2 + " caracteres.");
         }
 
         if (palavra1.equals(palavra2)) {

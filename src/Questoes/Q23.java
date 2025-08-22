@@ -39,7 +39,7 @@ public class Q23 {
             }
             return n1 / n2;
         } else {
-            throw new ArithmeticException("Operador invalido: " + oper);
+            throw new ArithmeticException("Operador digitado invalido: " + oper);
         }
     }
 
